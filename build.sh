@@ -1,0 +1,11 @@
+#!/bin/bash
+PROJECT_SRC_PATH=`pwd`
+PROJECT_NAME="project1"
+PROJECT_BUILD_PATH="../${PROJECT_NAME}_build"
+
+rm -rf "${PROJECT_BUILD_PATH}"
+mkdir "${PROJECT_BUILD_PATH}"
+cd "${PROJECT_BUILD_PATH}"
+cmake ${PROJECT_SRC_PATH}
+
+
