@@ -6,6 +6,7 @@ message (STATUS "${DIR_SRCS}")
 
 add_subdirectory("module1")
 add_subdirectory("module2")
+add_subdirectory("module3")
 
 # 编译为可执行文件
 add_executable (project1 ${DIR_SRCS})
